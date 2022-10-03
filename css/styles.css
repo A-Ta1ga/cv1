@@ -9,7 +9,7 @@ h1 {
   color: #66BFBF;
   font-size: 5.625rem;
   line-height: 2;
-  margin: 75px auto 0 auto;
+  margin: 100px auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
 
@@ -58,7 +58,7 @@ hr{
 .top {
   background-color: #E4F9F5;
   position: relative;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .skill-row {
@@ -85,13 +85,6 @@ hr{
   margin-left: 30px;
 }
 
-.top-cl {
-  position: absolute;
-  height: 95px;
-  right: 360px;
-  top: 80px;
-}
-
 .middle{
   margin: 100px 0;
 }
@@ -107,15 +100,8 @@ hr{
 }
 
 .pn {
+  width: 100%;
   margin: 0;
-  height: 613.5px;
-}
-
-.bottom-cl {
-  position: absolute;
-  height: 75px;
-  left: 340px;
-  bottom: 480px;
 }
 
 .contact-me {
@@ -156,4 +142,12 @@ hr{
   height: 100px;
   bottom: 108px;
   left: -70px;
+}
+
+.top-cl {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  right: 0px;
+  top: -100px;
 }
